@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="items" size="892,708" id="it.polimi.ingsw.lab.items" metadata="uml2-1.0" initialized="true" scrolledY="185" tag="1000" key="32303037303533312D313030302043726F7373666972652F4D696368656C65">
+  <children xsi:type="editmodel:ClassEditModel" name="MagicWand" location="265,627" size="151,119" id="it.polimi.ingsw.lab.items/MagicWand" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),MagicWand()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MagicWand" id="it.polimi.ingsw.lab.items/MagicWand#MagicWand()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="it.polimi.ingsw.lab.items/Weapon&lt;-it.polimi.ingsw.lab.items/MagicWand" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Item" location="199,15" size="162,355" id="it.polimi.ingsw.lab.items/Item" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),getModificator(),requisiti,getbonusAttack(),magicWond,bonusAttack,lifePotion,toString(),longSword,getName(),repOk(),name,equals(Ljava.lang.Object;),shield,modificator,Item(Ljava.lang.String;),getRequisiti()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="lifePotion" id="it.polimi.ingsw.lab.items/Item#lifePotion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="longSword" id="it.polimi.ingsw.lab.items/Item#longSword"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="magicWond" id="it.polimi.ingsw.lab.items/Item#magicWond"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="it.polimi.ingsw.lab.items/Item#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shield" id="it.polimi.ingsw.lab.items/Item#shield"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="requisiti" id="it.polimi.ingsw.lab.items/Item#requisiti"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modificator" id="it.polimi.ingsw.lab.items/Item#modificator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bonusAttack" id="it.polimi.ingsw.lab.items/Item#bonusAttack"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Item" id="it.polimi.ingsw.lab.items/Item#Item(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="it.polimi.ingsw.lab.items/Item#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/Item#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="repOk" id="it.polimi.ingsw.lab.items/Item#repOk()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getModificator" id="it.polimi.ingsw.lab.items/Item#getModificator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequisiti" id="it.polimi.ingsw.lab.items/Item#getRequisiti()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getbonusAttack" id="it.polimi.ingsw.lab.items/Item#getbonusAttack()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.ingsw.lab.items/Item#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.ingsw.lab.items/Item#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.5/@sourceConnections.0" name="Weapon" location="220,413" size="119,103" id="it.polimi.ingsw.lab.items/Weapon" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),Weapon(Ljava.lang.String;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Weapon" id="it.polimi.ingsw.lab.items/Weapon#Weapon(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/Weapon#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.ingsw.lab.items/Weapon#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.7/@sourceConnections.0" autoLocated="true" id="it.polimi.ingsw.lab.items/Item&lt;-it.polimi.ingsw.lab.items/Weapon" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,355" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LifePotion" location="510,540" size="119,86" id="it.polimi.ingsw.lab.items/LifePotion" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),isEquipable(Ljava.util.Map;),LifePotion(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/LifePotion#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LifePotion" id="it.polimi.ingsw.lab.items/LifePotion#LifePotion(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="it.polimi.ingsw.lab.items/Potions&lt;-it.polimi.ingsw.lab.items/LifePotion" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,86"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Shield" location="15,397" size="119,86" id="it.polimi.ingsw.lab.items/Shield" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),Shield(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/Shield#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Shield" id="it.polimi.ingsw.lab.items/Shield#Shield(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="it.polimi.ingsw.lab.items/Item&lt;-it.polimi.ingsw.lab.items/Shield" source="//@children.4" target="//@children.2/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="Sword" location="94,450" size="119,103" id="it.polimi.ingsw.lab.items/Sword" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),Sword(Ljava.lang.String;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Sword" id="it.polimi.ingsw.lab.items/Sword#Sword(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/Sword#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.ingsw.lab.items/Sword#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="it.polimi.ingsw.lab.items/Weapon&lt;-it.polimi.ingsw.lab.items/Sword" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LongSword" location="60,585" size="157,122" id="it.polimi.ingsw.lab.items/LongSword" runTimeClassModel="isEquipable(Lit.polimi.ingsw.lab.characters.Character;),repOk(),LongSword(Ljava.lang.String;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,72">
+      <children xsi:type="editmodel:MethodEditModel" name="LongSword" id="it.polimi.ingsw.lab.items/LongSword#LongSword()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/LongSword#isEquipable(Lit.polimi.ingsw.lab.characters.Character;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.ingsw.lab.items/LongSword#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="repOk" id="it.polimi.ingsw.lab.items/LongSword#repOk()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="it.polimi.ingsw.lab.items/Sword&lt;-it.polimi.ingsw.lab.items/LongSword" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Potions" location="405,422" size="119,86" id="it.polimi.ingsw.lab.items/Potions" runTimeClassModel="isEquipable(Ljava.util.Map;),Potions(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Potions" id="it.polimi.ingsw.lab.items/Potions#Potions(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEquipable" id="it.polimi.ingsw.lab.items/Potions#isEquipable(Ljava.util.Map;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="it.polimi.ingsw.lab.items/Item&lt;-it.polimi.ingsw.lab.items/Potions" source="//@children.7" target="//@children.2/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-178"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
